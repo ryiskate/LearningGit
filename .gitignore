@@ -1,0 +1,9 @@
+bin
+obj
+*.pdb
+*.user
+*.suo
+*.log
+*.sdf
+*.Publish.xml
+Thumbs.db
