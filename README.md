@@ -14,3 +14,5 @@ Topics
 * status
 * commit
 * push
+* fetch
+* merge
