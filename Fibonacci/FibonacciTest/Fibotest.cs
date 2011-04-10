@@ -37,6 +37,13 @@ namespace FibonacciTest
             Assert.AreEqual(2, result);
         }
 
+        [Test]
+        public void fibonnaci_9_returns_34()
+        {
+            var result = Fibonnaci.Calc(9);
+            Assert.AreEqual(34, result);
+        }
+
     }
 
     public class Fibonnaci
