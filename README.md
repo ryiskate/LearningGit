@@ -16,3 +16,4 @@ Topics
 * push
 * fetch
 * merge
+* add a collaborator
