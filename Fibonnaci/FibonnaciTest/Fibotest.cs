@@ -23,6 +23,13 @@ namespace FibonnaciTest
             Assert.AreEqual(1, result);
         }
 
+        [Test]
+        public void fibonnaci_2_returns_1()
+        {
+            var result = Fibonnaci.Calc(2);
+            Assert.AreEqual(1, result);
+        }
+
     }
 
     public class Fibonnaci
@@ -30,6 +37,8 @@ namespace FibonnaciTest
 
         public static int Calc(int value)
         {
+            if (value > 1)
+                return 1;
             return value;
         }
     }
